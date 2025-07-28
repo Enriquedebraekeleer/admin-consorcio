@@ -1,0 +1,113 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+}
+
+p {
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(102, 175.8, 255);
+}
+
+body {
+  background-color: #f0f8ff; /* un azul clarito */
+}
+
+body {
+  font-family: "Arial, sans-serif";
+  color: #212529;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+}
+header nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+header nav a:hover {
+  color: rgb(76.5, 162.6, 255);
+}
+
+main {
+  padding: 2rem;
+}
+@media (max-width: 576px) {
+  main {
+    padding: 1rem;
+  }
+}
+
+footer {
+  background-color: #6c757d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+footer {
+  font-size: 0.9rem;
+  background-color: rgb(84.3605150215, 91.3905579399, 97.6394849785);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+footer p {
+  margin: 0.2rem 0;
+}
+@media (max-width: 576px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+button,
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+button:hover, button:focus,
+.btn:hover,
+.btn:focus {
+  background-color: rgb(51, 149.4, 255);
+  color: #212529;
+  text-decoration: none;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.img-edificio {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

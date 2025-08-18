@@ -49,12 +49,41 @@
         </nav>
       </header>
       
-
-<main class="container my-5">
-  <h2>Contacto</h2>
-  <p>Podés comunicarte con nosotros vi mail a info@adminconsorcios.com.</p>
-
-</main>
+      <main class="container my-5">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <p class="text-center mb-5">
+          Podés comunicarte con nosotros por correo electrónico a 
+          <a href="mailto:info@adminconsorcios.com">info@adminconsorcios.com</a> 
+          o completar el siguiente formulario:
+        </p>
+      
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <form>
+              <!-- Nombre -->
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+              </div>
+              <!-- Email -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="tuemail@mail.com" required>
+              </div>
+              <!-- Mensaje -->
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribí tu mensaje aquí" required></textarea>
+              </div>
+              <!-- Botón -->
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+      
 
   <footer class="bg-secondary text-white text-center py-3 mt-5">
     <div class="container">
